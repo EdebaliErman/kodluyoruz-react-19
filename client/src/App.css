@@ -1,0 +1,14 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+#content{
+  padding: 15px;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+li img ,li  {
+  text-align: center;
+ margin: 1rem;
+}
+

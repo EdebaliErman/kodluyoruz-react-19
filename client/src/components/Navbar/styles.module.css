@@ -1,0 +1,38 @@
+.nav {
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px gainsboro;
+    line-height: 2px;
+  
+    align-items: center;
+}
+
+.nav .left {
+    display: flex;
+}
+
+.nav .left .menu {
+    display: flex;
+    margin-left: 40px;
+}
+
+.nav .menu li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(176, 184, 186);
+    padding: 3px 16px;
+    display: block;
+    text-shadow: 2px 2px 1.4px rgb(79, 196, 235);
+   
+}
+.nav .menu li a:hover{
+    color: black;
+}
+.logo{
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(21, 23, 23);
+    text-shadow: 2px 2px 1.4px rgb(79, 196, 235);
+}

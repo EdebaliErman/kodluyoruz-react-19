@@ -1,0 +1,33 @@
+.admin-menu {
+    margin: 1rem;
+}
+
+.admin-menu li {
+    background-color: gainsboro;
+    width: 8rem;
+    padding: 2rem;
+    margin-right: 2rem;
+    border-radius: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    color: aliceblue;
+    font-size: 26px;
+    text-shadow: 1px 1px 2px black;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -0.1rem -1rem 0.7rem 0.1rem rgb(50, 48, 48);
+}
+
+.admin-menu li:hover {
+    color: rgb(236, 237, 238);
+    background-color: rgb(255, 252, 252);
+    box-shadow: inset -0.1rem -1rem 0.7rem 0.1rem rgb(166, 162, 162);
+    text-shadow: 1px 1px 2px rgb(62, 203, 242);
+}
+
+a img {
+    display: inline-block;
+    max-width:  20rem;
+    max-height: 20rem;
+
+}
